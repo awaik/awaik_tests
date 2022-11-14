@@ -8,6 +8,6 @@ void main() {
   // String problem = stdin.readLineSync()!;
   String input = '3+8';
 
-  final res = Calculator().universalInput(input);
+  final res = Calculator().parseListAndAddFoundedNumbers(input);
   print(res);
 }
